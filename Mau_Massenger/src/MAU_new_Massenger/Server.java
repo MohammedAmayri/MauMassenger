@@ -10,9 +10,10 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// Delete port
+
 public class Server extends Thread {
 	private InetAddress ip;
-	private int port;
 	private ServerSocket socket ;
 	private HashMap<String, ObjectOutputStream> userSocket=new HashMap<String,ObjectOutputStream>();
 	private User user;
