@@ -26,8 +26,7 @@ public class ClientTest1 {
 		ous.writeObject(mohammed);
 
 		Message message=new Message(mohammed,hazem,"Hello Hazem this is Mohammed!");
-		//ous.writeObject((Object)message);
-		// ous.writeObject(us3);
+
 
 
 
