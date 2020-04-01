@@ -11,6 +11,8 @@ public class Message implements Serializable {
     private Calendar time;          
     private User sender;
     private User reciver;
+    //The new code
+    private String Agon;
 
 
     public Message(User reciver, User sender, String txt){
