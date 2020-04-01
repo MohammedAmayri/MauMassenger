@@ -13,7 +13,7 @@ public class ClientTest2 {
 	private Message msg;
 	CommandHandler commandHandler;
 	private ArrayList<String> onlineUser=new ArrayList<String>();
-
+			// MOHAMMED COMMENT
 	User mohammed=new User("Mohammed");
 	User hazem=new User("Hazem");
 	User ali=new User("Ali");
