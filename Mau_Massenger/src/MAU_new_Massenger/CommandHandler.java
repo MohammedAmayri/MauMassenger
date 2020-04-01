@@ -5,7 +5,7 @@ public class CommandHandler {
 	User user;
 	String command;
 	public CommandHandler(String command,User user)
-	{
+	{ /// HALLÅÅ
 		this.user=user;
 		this.command=command;
 	}
